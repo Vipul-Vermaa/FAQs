@@ -1,5 +1,5 @@
 import express from 'express'
-import { deleteFAQ, getFAQ, postFAQ } from '../controllers/faqController'
+import { deleteFAQ, getFAQ, postFAQ } from '../controllers/faqController.js'
 
 const router=express.Router()
 
